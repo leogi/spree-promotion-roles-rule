@@ -1,4 +1,4 @@
-class RolesPromotionRule < Spree::PromotionRule
+class Spree::Promotion::Rules::RolesPromotionRule < Spree::PromotionRule
 #  attr_accessible :role_ids_string, :role_list
 
   belongs_to :role, :class_name => '::Spree::Role'
